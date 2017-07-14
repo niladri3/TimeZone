@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/whitish"    >
+
+    <TextView
+
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textSize="30dp"
+        android:textColor="#707070"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:textSize="30dp"
+        android:textColor="#5C5C5C"/>
+
+    <Button
+        android:text="New Session"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:onClick="NewSession"
+        android:fadeScrollbars="false"
+        android:focusableInTouchMode="false"
+        android:textColorLink="?attr/colorBackgroundFloating" />
+
+    <Button
+        android:text="Cancel Notification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button5"
+        android:onClick="CancelNotification"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView2"
+            android:textSize="30dp"
+            android:textColor="#5C5C5C"
+            android:gravity="center_vertical|center_horizontal" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
